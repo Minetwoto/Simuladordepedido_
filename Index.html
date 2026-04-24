@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aí qui fome</title>
+       <link rel="stylesheet" href="Style.css">
+</head>
+<body> 
+  
+    <!--Conteiner Principal-->
+<div class="container">
+        <h1> 👾 Simulador de pedido do TDS261T  </h1>
+    <!--Subititulo-->
+  <p class ="subtitulo">
+
+    Bem-vindo(a) ao Aí qui fome da Cecilia! 
+    Aqui você come menos e paga mais! 😁💕
+  </p>
+            <!--Area que contem todos os produtos-->
+        
+        <div class="cards">
+            <!--CARDS = 1 PRODUTO-->
+                <!-- USAMOS LABEL PARA QUE CLICAR NO 
+                 PRODUTO MARQUE CHECKBOX. "✅"-->
+
+            <label class="card"> 
+                <!--checkbox que identifica se o item está selecionado-->
+            <input type="checkbox" id="Hambúrguer">
+                <!--Imagem do produto -->
+
+            <img src="assets/Hambúguer.png" alt="Hambúguer">
+                <!--Nome do produto-->
+            <h2> Hambúguer </h2>
+                <!--Desciçao-->
+            <p> Pão, Carne, Queijo cheddar e Bacon</p>
+                <!--PREÇO-->
+            <span> R$ 50,00</span>
+            </label>
+
+                        <!--BATATA-->
+
+            <label class="card"> 
+                <!--checkbox que identifica se o item está selecionado-->
+               <input type="checkbox" id="Batata Frita">
+                <!--Imagem do produto -->
+            <img src="assets/batata.png" alt="Batata">
+    
+            <h2> Batata </h2>
+            <P> Batata e alta demanda de sal</P>
+            <span> R$ 30,00 </span>
+            </label>
+
+                        <!--NURGET-->
+            
+            <label class="card"> 
+                <!--checkbox que identifica se o item está selecionado-->
+                <input type="checkbox" id="Narguets">
+                <!--Imagem do produto -->
+            <img src="assets/Nuggets.png" alt="Narguets">
+    
+            <h2> Nuggets </h2>
+            <P> Frango frito e tempero do chef Jeremy Allen White</P>
+            <span> R$ 45 </span>
+            </label>
+
+                        <!--COQUINHAA-->
+
+                <label class="card"> 
+                <!--checkbox que identifica se o item está selecionado-->
+            <input type="checkbox" id="coquinhaaa">
+                <!--Imagem do produto -->
+            <img src="assets/Coquinhaaa.png" alt="coquinhaaa">
+    
+            <h2> COQUINHAA </h2>
+            <P> Apena una cueca cuela pequitita</P>
+            <span> R$ 21 </span>
+            </label>
+
+                        <!--cuecacuela-->
+
+            <label class="card"> 
+                <!--checkbox que identifica se o item está selecionado-->
+                <input type="checkbox" id="cueca-cuela">
+                <!--Imagem do produto -->
+            <img src="assets/Cocão.png" alt="cueca-cuela">
+    
+            <h2> Cueca Cuela </h2>
+            <P> Apena una cueca cuela grandita </P>
+            <span> R$ 31 </span>
+            </label>
+
+                        <!--Açai-->
+
+            <label Class="card"> 
+                <!--checkbox que identifica se o item está selecionado-->
+                <input type="checkbox" id="Açaí">
+                <!--Imagem do produto -->
+                <img src="assets/Açai.png" alt="Açaí">
+    
+                <h2> Açaí</h2>
+                <P> Açaí e frutas de sua preferência </P>
+                <span> R$ 96 </span>
+            </label>
+
+             <!--Sorvete-->
+
+             <label Class="card"> 
+                <input type="checkbox" id="sorvete">
+                <img src="assets/Sorvetinho.png" alt="sorvete">
+    
+                <h2> Sorvete</h2>
+                <P> sorvetes de sua preferência e frutas </p>
+                <span> R$ 98 </span>
+            </label>
+
+         </div>
+        <!-- Botão que chama a função calcular() para somar o pedido-->
+        <button onclick="calcular()"> Calcular Pedido</button>
+        <!-- Área de resultado do pedido-->
+        <div id="resultado" class="resultado"></div>
+    </div>
+    <script src="Script.js"></script>
+    
+</body>
+</html>
