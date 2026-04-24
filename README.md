@@ -1,6 +1,3 @@
-# Simuladordepedido_
-
-# SimuladorPedido
 
 # SimuladorPedido
 Projeto utilizando *HTML, CSS E JavaScript*. O usuário escolhe itens e o sistema calcula o total com desconto e entrega.
